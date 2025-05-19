@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Terms & Services - Good Explanation</title>
+    <style>
+        :root {
+            --bg-dark: #121212;
+            --bg-section: #1e1e1e;
+            --bg-alt: #181818;
+            --text-light: #f0f0f0;
+            --accent: #b22222;
+            --accent-hover: #c04040;
+            --shadow: rgba(0, 0, 0, 0.6);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(90deg, var(--bg-section), var(--bg-alt));
+            padding: 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 8px var(--shadow);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        header .header-button {
+            padding: 0.5rem 1.5rem;
+            background-color: var(--accent);
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 6px;
+            text-decoration: none;
+            box-shadow: 0 4px 10px var(--shadow);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        header .header-button:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        .back-link {
+            margin-right: 1rem;
+            color: var(--text-light);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .back-link:before {
+            content: '←';
+            margin-right: 5px;
+            font-size: 1.2rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .page-title {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 2.5rem;
+            color: var(--accent);
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .page-title:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 3px;
+            background-color: var(--accent);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+
+        .section {
+            background-color: var(--bg-section);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px var(--shadow);
+        }
+
+        .section h2 {
+            color: var(--accent);
+            margin-top: 0;
+            border-bottom: 1px solid #333;
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section p, .section ul, .section ol {
+            margin-bottom: 1.2rem;
+        }
+
+        .section ul, .section ol {
+            padding-left: 1.5rem;
+        }
+
+        .section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background-color: rgba(178, 34, 34, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box h3 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .effective-date {
+            text-align: center;
+            margin-top: 3rem;
+            font-style: italic;
+            color: #999;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            background-color: var(--bg-alt);
+            font-size: 0.85rem;
+            color: #777;
+            border-top: 1px solid #333;
+            margin-top: 3rem;
+        }
+
+        .footer-links {
+            margin-bottom: 1rem;
+        }
+
+        .footer-links a {
+            color: #999;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            header .header-button {
+                margin-top: 1rem;
+                width: 100%;
+                text-align: center;
+            }
+
+            .page-title {
+                font-size: 1.8rem;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <h1>Good Explanation</h1>
+        </div>
+        <a href="https://forms.gle/8SAhtqFjiKBLxwvg6" class="header-button">Buy Now</a>
+    </header>
+
+    <main>
+        <h1 class="page-title">Terms & Services</h1>
+
+        <div class="section">
+            <h2>1. Introduction</h2>
+            <p>Welcome to Good Explanation Cohort. By accessing or using our services, you agree to be bound by these Terms and Services. Please read these terms carefully before participating in any of our cohorts or programs.</p>
+            <p>These Terms and Services ("Terms") govern your access to and use of the Good Explanation Cohort program, including any content, functionality, and services offered on or through our website or during our cohorts.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Program Access and Participation</h2>
+            <p>Upon successful registration and payment, you will be granted access to the cohort program as described on our website. The program may include:</p>
+            <ul>
+                <li>Live interactive sessions</li>
+                <li>Pre-recorded content</li>
+                <li>Community discussions</li>
+                <li>Course materials and resources</li>
+                <li>Support from instructors</li>
+            </ul>
+            <p>Participation in our program requires a reliable internet connection and appropriate devices for accessing online content. We are not responsible for technical difficulties on your end that may affect your participation.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Refund Policy</h2>
+            <div class="highlight-box">
+                <h3>Our Lifetime Money-Back Guarantee</h3>
+                <p>We stand behind the quality of our cohort with our unique refund policy:</p>
+                <ul>
+                    <li>If you attend the first session and feel this isn't for you, we'll offer a 100% money-back guarantee — no questions asked.</li>
+                    <li>After completing the cohort, if you feel that the course was not for you, you can request a full refund—no questions asked.</li>
+                    <li>There is no time limit; unlike other courses that only refund within 30 days, you can request a refund anytime.</li>
+                </ul>
+                <p>To initiate a refund, please contact our support team at support@goodexplanation.com with your order details.</p>
+            </div>
+            <p>If this program doesn't level you up, we'll cover the cost of any resource—course, workshop, or coaching—you believe will help you achieve your goals.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Payment Terms</h2>
+            <p>The price of the cohort is ₹1,998. Payment is due in full at the time of registration unless otherwise specified in a payment plan option.</p>
+            <p>We offer a "Try Before You Buy" option for ₹99, which allows you to attend a few sessions before deciding to purchase the full cohort. This nominal fee ensures a secure and scam-free environment for all participants.</p>
+            <p>All payments are processed through secure third-party payment processors. We do not store your payment information on our servers.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Intellectual Property Rights</h2>
+            <p>All content provided in the Good Explanation Cohort, including but not limited to videos, presentations, documents, methodologies, and frameworks, is the intellectual property of Good Explanation or its content creators and is protected by intellectual property laws.</p>
+            <p>By participating in our cohort, you agree:</p>
+            <ul>
+                <li>Not to reproduce, distribute, modify, or create derivative works of our content</li>
+                <li>Not to record or share recordings of live sessions without explicit permission</li>
+                <li>Not to share your access credentials with others</li>
+                <li>To use the materials for your personal educational purposes only</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. Privacy Policy</h2>
+            <p>At Good Explanation, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you participate in our cohort program.</p>
+            
+            <h3>Information We Collect</h3>
+            <ul>
+                <li>Personal information (name, email address, phone number) provided during registration</li>
+                <li>Payment information (processed through secure third-party providers)</li>
+                <li>Engagement data (session attendance, completion of activities, participation in discussions)</li>
+                <li>Feedback and survey responses</li>
+            </ul>
+            
+            <h3>How We Use Your Information</h3>
+            <ul>
+                <li>To provide access to our cohort program and materials</li>
+                <li>To communicate important updates about the program</li>
+                <li>To offer support and answer your questions</li>
+                <li>To improve our courses and teaching methods</li>
+                <li>To send relevant educational content and offers (with your consent)</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <h3>Data Security and Sharing</h3>
+                <p>We implement appropriate security measures to protect your personal information and will never sell your data to third parties. We may share your information with:</p>
+                <ul>
+                    <li>Service providers who help us deliver the cohort (e.g., hosting platforms, payment processors)</li>
+                    <li>Course instructors and facilitators (limited to what's necessary for program delivery)</li>
+                    <li>When required by law or to protect our rights</li>
+                </ul>
+            </div>
+            
+            <p>You have the right to access, correct, or request deletion of your personal information. For any privacy-related concerns, please contact us at noorsession23@gmail.com.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Code of Conduct</h2>
+            <p>To ensure a positive learning environment for all participants, we expect you to:</p>
+            <ul>
+                <li>Treat all participants, instructors, and staff with respect</li>
+                <li>Engage constructively in discussions and activities</li>
+                <li>Refrain from disruptive, offensive, or inappropriate behavior</li>
+                <li>Not engage in any form of harassment, discrimination, or bullying</li>
+            </ul>
+            <p>We reserve the right to remove participants who violate this code of conduct without refund.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Availability and Changes</h2>
+            <p>We strive to maintain the availability of our services as described, but we reserve the right to:</p>
+            <ul>
+                <li>Modify program content to improve the learning experience</li>
+                <li>Change dates or times of live sessions with reasonable notice</li>
+                <li>Replace instructors or guest speakers if necessary</li>
+                <li>Update these Terms at any time</li>
+            </ul>
+            <p>We will make reasonable efforts to notify you of significant changes to the program or these Terms.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, Good Explanation and its instructors shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:</p>
+            <ul>
+                <li>Your participation or inability to participate in our cohort</li>
+                <li>Any conduct or content of any third party in the cohort</li>
+                <li>Any content obtained from or through the cohort</li>
+                <li>Unauthorized access, use, or alteration of your content or information</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. Dispute Resolution</h2>
+            <p>Any disputes arising out of or relating to these Terms or your participation in our cohort shall be resolved through good-faith negotiation. If we cannot reach a resolution through negotiation, the dispute will be submitted to binding arbitration in accordance with applicable laws.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Contact Information</h2>
+            <p>If you have any questions about these Terms, please contact us at:</p>
+            <p>Email: noorsession23@gmail.com</p>
+        </div>
+
+        <p class="effective-date">Effective Date: May 19, 2025</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Good Explanation. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
